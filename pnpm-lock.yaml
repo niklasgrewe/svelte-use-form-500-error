@@ -10,6 +10,7 @@ devDependencies:
   svelte: 3.35.0
   svelte-check: 1.2.3_019da5987046f7cef513105c1bc21bab
   svelte-preprocess: 4.6.9_bfabe6c7bc3d73e76d0bc9dab084c580
+  svelte-use-form: 2.1.0
   tailwindcss: 2.0.3_caf414ac65a978d0d57907a0ec9fb41e
   typescript: 4.2.3
   vite: 2.0.5
@@ -1443,6 +1444,10 @@ packages:
     requiresBuild: true
     resolution:
       integrity: sha512-SROWH0rB0DJ+0Ii264cprmNu/NJyZacs5wFD71ya93Cg/oA2lKHgQm4F6j0EWA4ktFMzeuJJm/eX6fka39hEHA==
+  /svelte-use-form/2.1.0:
+    dev: true
+    resolution:
+      integrity: sha512-AC/ljNs/4FoPw/I9JBtxP1JqRMYCQTmbGynaALAqGTKUPqBavB5yS8zd1XK3c5D0DjoPNmMYgdrKnnRtgPbL5w==
   /svelte/3.35.0:
     dev: true
     engines:
@@ -1607,6 +1612,7 @@ specifiers:
   svelte: ^3.35.0
   svelte-check: ^1.2.3
   svelte-preprocess: ^4.6.9
+  svelte-use-form: ^2.1.0
   tailwindcss: ^2.0.3
   typescript: ^4.2.3
   vite: ^2.0.5
